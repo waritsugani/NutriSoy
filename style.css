@@ -1,0 +1,56 @@
+:root {
+  --bg-cream: #f5f2eb;
+  --bg-card-white: #ffffff;
+  --bg-input-cream: #f6f4ef;
+  --bg-soft-olive: #edf0e7;
+  --bg-step-box: #f7f5ef;
+
+  --olive-dark: #4b5d38;
+  --olive-darker: #3e4e2e;
+  --olive-mid: #5d7047;
+  --gold-btn: #d5b45c;
+  --gold-btn-hover: #c9a74e;
+
+  --text-primary: #262922;
+  --text-secondary: #5e6258;
+  --text-muted: #7c8075;
+  --text-on-dark-muted: rgba(255, 255, 255, 0.86);
+
+  --border-light: #e5e2d9;
+  --border-card: #ebe8df;
+
+  --shadow-card: 0 4px 20px rgba(38, 41, 34, 0.035);
+  --shadow-soft: 0 2px 10px rgba(38, 41, 34, 0.03);
+
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-pill: 999px;
+
+  --font-main: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; background-color: var(--bg-cream); }
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-cream);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  
+}
+img { display: block; max-width: 100%; }
+img[src=""] { background-color: #e4e0d5; object-fit: cover; }
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea { font-family: inherit; }
+.frame-1440, .container-1440, .frame-1423, .container-1423 {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 64px;
+}
+.frame-1440, .container-1440 { max-width: 1440px; }
+.frame-1423, .container-1423 { max-width: 1423px; }
+.text-center { text-align: center; }
